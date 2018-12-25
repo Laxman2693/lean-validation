@@ -1,0 +1,49 @@
+{
+  "name": "lean-validator",
+  "version": "0.0.1",
+  "description": "An easy to integrate validations module with any HTML or Component based React Forms",
+  "keywords": [
+    "react",
+    "reactjs",
+    "redux",
+    "state",
+    "form",
+    "json",
+    "schema",
+    "validator",
+    "validation",
+    "lean validator",
+    "lean validation",
+    "react validation",
+    "react validator",
+    "form validation",
+    "form validator",
+    "state validation",
+    "state validator"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnuragMakol/lean-validator.git"
+  },
+  "author": "Anurag Makol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnuragMakol/lean-validator/issues"
+  },
+  "homepage": "https://github.com/AnuragMakol/lean-validator#readme"
+}
