@@ -4,12 +4,12 @@
 
 ### Using NPM
 ```bash
-npm install lean-validator
+npm install lean-validation
 ```
 
 ### Using Yarn
 ```bash
-yarn add lean-validator
+yarn add lean-validation
 ```
 
 ## Documentation
@@ -30,7 +30,7 @@ yarn add lean-validator
 ### How to Import
 
 ```js
-import { LeanValidator } from 'lean-validator'
+import { LeanValidation } from 'lean-validation'
 ```
 
 ### Form Validator Syntax
@@ -45,7 +45,7 @@ General Syntax of the object creation of the validator
 constructor(props) {
   super(props);
 
-  this.validator = new LeanValidator([
+  this.validator = new LeanValidation([
     {
       field: 'firstName',
       method: 'isEmpty',
@@ -91,7 +91,7 @@ Now add the the object of the Validator to the current state
 constructor(props) {
   super (props);
 
-  this.validator = new LeanValidator([
+  this.validator = new LeanValidation([
     {
       field: 'firstName',
       method: 'isEmpty',
@@ -119,7 +119,7 @@ If submitted is made true it will perform realtime validations but show the mess
 constructor(props) {
   super (props);
 
-  this.validator = new LeanValidator([
+  this.validator = new LeanValidation([
     {
       field: 'firstName',
       method: 'isEmpty',
