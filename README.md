@@ -1,4 +1,4 @@
-# Lean Validator
+# Lean Validation
 
 ## Installation
 
