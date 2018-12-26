@@ -181,4 +181,4 @@ formCapture = () => {
 
 ## Author
 
-Anurag Makol | Programmer in day, Gamer by Night  
+Anurag Makol
