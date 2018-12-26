@@ -1,6 +1,6 @@
 {
   "name": "lean-validation",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An easy to integrate lean validations module with any HTML or Component based React Forms",
   "keywords": [
     "react",
